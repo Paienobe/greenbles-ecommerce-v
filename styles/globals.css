@@ -1,0 +1,100 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .drop-shadoww {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+} */
+
+.ant-input {
+  background-color: #e5e5e5 !important;
+}
+
+.ant-input-affix-wrapper {
+  background-color: #e5e5e5 !important;
+}
+
+.green_bg {
+  width: 100%;
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1280px !important;
+  }
+}
+
+h1 {
+  margin: 0 !important;
+}
+
+.drop-shadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bless-border {
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 5px 20px;
+}
+
+.active {
+  background-color: #85c226;
+  border-radius: 5px;
+}
+
+.product-border {
+  border: 1px solid #f0f0f0;
+}
+
+.block-end ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: 400;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.block-end ul li span {
+  color: #000000;
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+}
+
+.direction {
+  color: #000000;
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+}
